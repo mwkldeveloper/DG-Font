@@ -1,0 +1,9 @@
+tqdm  
+numpy
+opencv-python  
+scipy  
+scikit-learn
+matplotlib  
+pillow  
+tensorboardX
+git+https://github.com/mwkldeveloper/Deformable-Convolution-V2-PyTorch.git@pytorch_2

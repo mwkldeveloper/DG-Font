@@ -49,7 +49,12 @@ Example directory hierarchy
                  |--- ...
            |--- ...
 
-
+# prepare environment
+conda create - n dgfont python=3.12
+conda activate dgfont
+conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
+conda install nvidia/label/cuda-12.4.0::cuda-toolkit
+pip install -r requirement.txt
 
 # How to run
 
@@ -76,3 +81,5 @@ We would like to thank [Johnson yue](https://github.com/Johnson-yue) and 上海�
         booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
         year={2021}
     }
+
+
