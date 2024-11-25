@@ -50,11 +50,11 @@ Example directory hierarchy
            |--- ...
 
 # prepare environment
-conda create - n dgfont python=3.12
+conda create -n dgfont python=3.12
 conda activate dgfont
 conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvidia
 conda install nvidia/label/cuda-12.4.0::cuda-toolkit
-pip install -r requirement.txt
+pip install -r requirements.txt
 
 # How to run
 
